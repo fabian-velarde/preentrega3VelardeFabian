@@ -1,0 +1,110 @@
+ /* Estilos para el carrito */
+ * {
+  margin: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+}
+
+.cart {
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.cart-item button {
+  background-color: #ff6666;
+  color: rgb(231, 229, 229);
+  border: none;
+  cursor: pointer;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#cartContainer {
+  display: none;
+}
+
+/*___BODY_GALERIA_*/
+
+body{
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.gallery { 
+    margin-top: 20%;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+    }
+
+.shop {
+  width: 100px;
+}
+
+img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px rgba(241, 0, 221, 0.315);
+  z-index: -1; 
+  &:hover { 
+    box-shadow: 1px 1px 10px 10px #fc0758;
+  }
+}    
+
+span {
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 2px 1px black;
+    width: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    text-align: center;
+    color: #cacaca;
+    padding: 20px 10px 20px 10px;
+    border: #e909e956;
+}
+
+button {
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    padding: 1px 2px;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 1px 5px 5px#080707;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+body {
+  background-color: #c21616;
+}
+
+p {
+  text-transform: uppercase;
+
+}
+
+
